@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+<!--navbar-->
+<ul class="nav navbar-nav navbar-right">
+  <li><a href="goal-planning.html">goal planning</a></li>
+  <li><a href="index.html">home</a></li>
+</ul>
+<!--end navbar-->
+  <div class="container-fluid bg-body">
+    <h1 class="text-center">Contact Us</h1>
+    <!--form control input-->
+    <div class="container">
+      <!--FORM STARTS FOR CONTACT -->
+      <form>
+        <div class="form-group">
+          <label for="usr">Name:</label>
+          <input type="text" class="form-control op" id="usr">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control op" id="pwd">
+        </div>
+
+        <!--texteria-->
+        <div class="form-group">
+          <label for="comment">Comment:</label>
+          <textarea class="form-control op" rows="5" id="comment"></textarea>
+        </div>
+
+        <!--Form control: checkboxes-->
+        <div class="checkbox">
+          <label><input type="checkbox" value="">Are you interested in on site supervision?</label>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" value="">Do you want your pool to be low maintenance and chlorine free?</label>
+        </div>
+        <div class="checkbox disabled">
+          <label><input type="checkbox" value="" disabled>Pool only</label>
+        </div>
+        <!--form control select-->
+        <div class="form-group">
+          <label for="sel1">Select list:</label>
+          <select class="form-control op" id="sel1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+        </div>
+      </form>
+      <!-- FORM ENDS -->
+    </div>
+    <!-- CONTAINER ends -->
+  </div>
+  <!-- CONTAINER-FLUID ends -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

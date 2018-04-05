@@ -1,0 +1,142 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar-default {
+  background-color: black;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: rgba(0, inherit;
+  0, 0, .6);
+  Text-shadow: 1px 1px 1px #000
+}
+
+.navbar-default .naavbar-nav>li>a {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+  position: static;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #F65239;
+  background-color: rgba (0, 0, 0, inherit;
+  .25);
+}
+
+/*all slides*/
+
+.item {
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+.item iframe {
+  width: 100%;
+  height: 600px;
+}
+
+.full-image {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.riverstone {
+  background-image: url("../img/riverstone night.jpg");
+}
+
+.hanford {
+  background-image: url("../img/hanford.jpg");
+  height: 600px;
+}
+
+.carmel {
+  background-image: url("../img/carmel-negative.jpg");
+  height: 600px;
+}
+
+.lyons-heads {
+  background-image: url("../img/lyons-heads.jpg");
+}
+
+}
+
+.example1 {
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-color: #FFD72C;
+}
+
+.example1 h3 {
+  font-size: 3em;
+  color: blue;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* Starting position */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: example1 15s linear infinite;
+  -webkit-animation: example1 15s linear infinite;
+  animation: example1 15s linear infinite;
+}
+
+/* Move it (define the animation) */
+
+@-moz-keyframes example1 {
+  0% {
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes example1 {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes example1 {
+  0% {
+    -moz-transform: translateX(100%);
+    /* Firefox bug fix */
+    -webkit-transform: translateX(100%);
+    /* Firefox bug fix */
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+    /* Firefox bug fix */
+    -webkit-transform: translateX(-100%);
+    /* Firefox bug fix */
+    transform: translateX(-100%);
+  }
+  /* Style the header */
+  .header {
+    background-color: #36E7F4;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }

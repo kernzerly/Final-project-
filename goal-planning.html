@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Final</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/goal-planning.css">
+</head>
+<!--start navbar-->
+<body>
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="contact.html">contact</a></li>
+    <li><a href="index.html">home</a></li>
+  </ul>
+<!--end navbar-->
+
+
+  <div class="container-fluid">
+    <div class="row row-one">
+      <div class="col-sm-12 example1">
+        <h3 class="title">Track your activities and your goals </h3>
+        <div id="myDIV" class="header">
+          <h2 style="margin:5px">Activity List</h2>
+          <input type="text" id="myInput" placeholder="What activities do you need to complete?">
+          <span onclick="newElement()" class="addBtn">Add Activity</span>
+        </div>
+
+        <ul id="myUL">
+          <li>Minumum of 5 activities per work day</li>
+
+        </ul>
+      </div>
+      <div id="myDIV" class="header col-sm-12">
+        <h2 style="margin:5px">Number of activities completed</h2>
+        <p>Write the number of activities completed in the input field and click the button.</p>
+        <input id="myInputActivityResult" placeholder="Enter the amount that you were able to complete!" type="text">
+
+        <button class="addBtn" onclick="myFunction()">completed</button>
+        <div class="row special">
+          <p class="text-center big" id="demo"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/goal-planning.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
